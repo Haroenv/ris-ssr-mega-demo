@@ -1,0 +1,39 @@
+{
+  "name": "example-server-side-rendering",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack && nodemon dist/server.js",
+    "watch": "webpack --watch",
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/polyfill": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "6.26.3",
+    "babel-jest": "24.8.0",
+    "babel-loader": "8.0.6",
+    "jest": "24.8.0",
+    "nodemon": "1.19.1",
+    "react-test-renderer": "16.8.6",
+    "webpack": "4.39.1",
+    "webpack-cli": "3.3.6",
+    "webpack-node-externals": "1.7.2"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.10.2",
+    "algoliasearch": "^3.33.0",
+    "express": "4.17.1",
+    "prop-types": "15.6.0",
+    "qs": "^6.7.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-instantsearch-dom": "5.7.0",
+    "react-router-dom": "^5.0.1"
+  }
+}
